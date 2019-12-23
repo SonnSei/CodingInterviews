@@ -6,7 +6,7 @@ import java.util.Stack;
  * @Classname Solution
  * @Description TODO
  * @Date 2019/12/18 3:37
- * @Created by SunCheng
+ * @Created by Cheng
  */
 public class Solution {
     public boolean IsPopOrder(int [] pushA,int [] popA) {

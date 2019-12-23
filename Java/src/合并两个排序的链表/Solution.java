@@ -6,7 +6,7 @@ import utils.ListNode;
  * @Classname Solution
  * @Description 合并两个有序链表
  * @Date 2019/12/18 1:17
- * @Created by SunCheng
+ * @Created by Cheng
  */
 public class Solution {
     public ListNode Merge(ListNode list1, ListNode list2) {

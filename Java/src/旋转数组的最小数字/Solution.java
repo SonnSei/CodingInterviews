@@ -4,16 +4,13 @@ package 旋转数组的最小数字;
  * @Classname Solution
  * @Description 旋转数组的最小数字
  * @Date 2019/12/17 16:07
- * @Created by SunCheng
+ * @Created by Cheng
  */
 public class Solution {
     public int minNumberInRotateArray(int [] array) {
         int left= 0,right = array.length-1;
         while (left < right) {
             int mid = (left+right)>>>1;
-            System.out.println("left:"+left+"  mid:"+mid+"  right:"+right);
-            System.out.println("left:"+array[left]+"  mid:"+array[mid]+"  right:"+array[right]);
-            System.out.println("******************");
             if (array[left] == array[mid] && array[mid] == array[right]) {
                 return search(array, left, right);
             }

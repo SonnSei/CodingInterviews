@@ -6,7 +6,7 @@ import java.util.Stack;
  * @Classname Solution
  * @Description 两个栈实现队列
  * @Date 2019/12/17 16:01
- * @Created by SunCheng
+ * @Created by Cheng
  */
 public class Solution {
     Stack<Integer> stack1 = new Stack<Integer>();

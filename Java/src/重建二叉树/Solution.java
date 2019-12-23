@@ -6,7 +6,7 @@ import utils.TreeNode;
  * @Classname Solution
  * @Description 重建二叉树
  * @Date 2019/12/17 15:36
- * @Created by SunCheng
+ * @Created by Cheng
  */
 public class Solution {
     public TreeNode reConstructBinaryTree(int [] pre, int [] in) {

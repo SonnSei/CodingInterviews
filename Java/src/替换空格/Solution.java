@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * @Classname Solution
  * @Description 替换空格
  * @Date 2019/12/17 15:11
- * @Created by SunCheng
+ * @Created by Cheng
  */
 public class Solution {
     public String replaceSpace(StringBuffer str) {

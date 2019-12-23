@@ -6,7 +6,7 @@ import utils.ListNode;
  * @Classname Solution
  * @Description TODO
  * @Date 2019/12/17 20:40
- * @Created by SunCheng
+ * @Created by Cheng
  */
 public class Solution {
     public ListNode ReverseList(ListNode head) {
@@ -19,5 +19,25 @@ public class Solution {
             head = next;
         }
         return dummyHead.next;
+    }
+
+    public ListNode ReverseList2(ListNode head) {
+        if(head == null)return head;
+        ListNode dummyHead = new ListNode(0);
+        dummyHead.next = reverse(head);
+        return dummyHead.next;
+    }
+
+    private ListNode reverse(ListNode node) {
+        if(node.next==null)
+            return node;
+        ListNode pre = reverse(node.next);
+
+        // 尾插
+        ListNode cur = pre;
+        while(cur.next!=null)cur = cur.next;
+        cur.next = node;
+        node.next = null;
+        return pre;
     }
 }

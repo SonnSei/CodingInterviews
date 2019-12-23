@@ -4,7 +4,7 @@ package 调整数组顺序使奇数位于偶数前面;
  * @Classname Solution
  * @Description TODO
  * @Date 2019/12/17 20:23
- * @Created by SunCheng
+ * @Created by Cheng
  */
 public class Solution {
     /**
@@ -50,17 +50,13 @@ public class Solution {
      * 这个方法并不能保证顺序一致
      * @param array
      */
-//    public void reOrderArray2(int[] array) {
-//        int left = 0,right = 0;
-//        for (int i = 0; i < array.length; i++) {
-//            if ((array[i] & 1) == 1) {
-//                swap(array,i,left++);
-//            }
-//        }
-//    }
-//    public static void swap(int[] nums,int a,int b){
-//        int temp = nums[a];
-//        nums[a] = nums[b];
-//        nums[b] = temp;
-//    }
+    public void reOrderArray3(int[] array) {
+        int left = 0,right = 0;
+        for (int i = 0; i < array.length; i++) {
+            if ((array[i] & 1) == 1) {
+                swap(array,i,left++);
+            }
+        }
+    }
+
 }

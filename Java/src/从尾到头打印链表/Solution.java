@@ -10,7 +10,7 @@ import java.util.Collections;
  * @Classname Solution
  * @Description 从尾到头打印链表
  * @Date 2019/12/17 15:24
- * @Created by SunCheng
+ * @Created by Cheng
  */
 public class Solution {
     /**

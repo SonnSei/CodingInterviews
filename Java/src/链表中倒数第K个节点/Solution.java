@@ -6,7 +6,7 @@ import utils.ListNode;
  * @Classname Solution
  * @Description TODO
  * @Date 2019/12/17 20:36
- * @Created by SunCheng
+ * @Created by Cheng
  */
 public class Solution {
     public ListNode FindKthToTail(ListNode head, int k) {

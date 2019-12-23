@@ -4,7 +4,7 @@ package 二进制中1的个数;
  * @Classname Solution
  * @Description 二进制中1的个数
  * @Date 2019/12/17 20:06
- * @Created by SunCheng
+ * @Created by Cheng
  */
 public class Solution {
     /**

@@ -6,7 +6,7 @@ import java.util.Arrays;
  * @Classname Solution
  * @Description TODO
  * @Date 2019/12/17 14:36
- * @Created by SunCheng
+ * @Created by Cheng
  */
 public class Solution {
     public boolean Find(int target, int [][] matrix ) {

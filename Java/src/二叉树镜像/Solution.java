@@ -8,7 +8,7 @@ import java.util.*;
  * @Classname Solution
  * @Description TODO
  * @Date 2019/12/18 1:30
- * @Created by SunCheng
+ * @Created by Cheng
  */
 public class Solution {
     public void Mirror(TreeNode root) {
@@ -19,5 +19,4 @@ public class Solution {
         Mirror(root.left);
         Mirror(root.right);
     }
-
 }

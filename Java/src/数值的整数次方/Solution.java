@@ -4,7 +4,7 @@ package 数值的整数次方;
  * @Classname Solution
  * @Description TODO
  * @Date 2019/12/17 20:13
- * @Created by SunCheng
+ * @Created by Cheng
  */
 public class Solution {
     public double Power(double base, int exponent) {

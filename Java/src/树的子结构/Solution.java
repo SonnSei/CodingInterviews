@@ -6,7 +6,7 @@ import utils.TreeNode;
  * @Classname Solution
  * @Description 树的子结构
  * @Date 2019/12/18 1:22
- * @Created by SunCheng
+ * @Created by Cheng
  */
 public class Solution {
     public boolean HasSubtree(TreeNode root1, TreeNode root2) {

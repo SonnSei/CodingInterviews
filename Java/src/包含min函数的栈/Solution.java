@@ -6,7 +6,7 @@ import java.util.Stack;
  * @Classname Solution
  * @Description TODO
  * @Date 2019/12/18 2:56
- * @Created by SunCheng
+ * @Created by Cheng
  */
 public class Solution {
     Stack<Integer> dataStack = new Stack<>();
