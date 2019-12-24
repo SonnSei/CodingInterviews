@@ -4,7 +4,7 @@ package 第一个只出现一次的字符;
  * @Classname Solution
  * @Description TODO
  * @Date 2019/12/22 9:56
- * @Author SunCheng
+ * @Author Cheng
  */
 public class Solution {
     public int FirstNotRepeatingChar(String str) {

@@ -6,7 +6,7 @@ import java.util.*;
  * @Classname Solution
  * @Description TODO
  * @Date 2019/12/22 9:17
- * @Author SunCheng
+ * @Author Cheng
  */
 public class Solution {
     public static void main(String[] args) {

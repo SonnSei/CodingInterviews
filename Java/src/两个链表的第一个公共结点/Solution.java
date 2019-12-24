@@ -6,7 +6,7 @@ import utils.ListNode;
  * @Classname Solution
  * @Description TODO
  * @Date 2019/12/22 12:02
- * @Author SunCheng
+ * @Author Cheng
  */
 public class Solution {
     public ListNode FindFirstCommonNode(ListNode pHead1, ListNode pHead2) {

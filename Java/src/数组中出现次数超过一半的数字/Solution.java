@@ -6,9 +6,9 @@ import java.util.Map;
 
 /**
  * @Classname Solution
- * @Description TODO
+ * @Description 数组中出现次数超过一半的数字
  * @Date 2019/12/18 5:17
- * @Created by SunCheng
+ * @Created by Cheng
  */
 public class Solution {
     /**

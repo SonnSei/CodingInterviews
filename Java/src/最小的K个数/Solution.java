@@ -4,9 +4,9 @@ import java.util.ArrayList;
 
 /**
  * @Classname Solution
- * @Description TODO
+ * @Description 最小的K个数
  * @Date 2019/12/18 15:25
- * @Created by SunCheng
+ * @Created by Cheng
  */
 public class Solution {
     public ArrayList<Integer> GetLeastNumbers_Solution(int [] input, int k) {

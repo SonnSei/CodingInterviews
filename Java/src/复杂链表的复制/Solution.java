@@ -4,9 +4,9 @@ import utils.RandomListNode;
 
 /**
  * @Classname Solution
- * @Description TODO
+ * @Description 复杂链表的复制
  * @Date 2019/12/18 4:19
- * @Created by SunCheng
+ * @Created by Cheng
  */
 public class Solution {
     public RandomListNode Clone(RandomListNode pHead)
@@ -36,7 +36,6 @@ public class Solution {
             cur.next = cur.next.next;
             cur = next;
         }
-
         return cloneHead;
     }
 }

@@ -4,7 +4,7 @@ package 二叉搜索树的后序遍历序列;
  * @Classname Solution
  * @Description TODO
  * @Date 2019/12/18 3:45
- * @Created by SunCheng
+ * @Created by Cheng
  */
 public class Solution {
     public boolean VerifySquenceOfBST(int [] sequence) {
@@ -34,5 +34,4 @@ public class Solution {
         }
         return verify(sequence, start, mid-1) && verify(sequence, mid , end - 1);
     }
-
 }

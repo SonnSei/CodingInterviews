@@ -4,9 +4,9 @@ import utils.TreeNode;
 
 /**
  * @Classname Solution
- * @Description TODO
+ * @Description 二叉搜索树与双向链表
  * @Date 2019/12/18 4:38
- * @Created by SunCheng
+ * @Created by Cheng
  */
 public class Solution {
     TreeNode head = null;

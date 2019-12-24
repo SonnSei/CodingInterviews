@@ -6,9 +6,9 @@ import java.util.Collections;
 
 /**
  * @Classname Solution
- * @Description TODO
+ * @Description 字符串的排列
  * @Date 2019/12/18 4:57
- * @Created by SunCheng
+ * @Created by Cheng
  */
 public class Solution {
     public ArrayList<String> Permutation(String str) {

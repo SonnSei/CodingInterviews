@@ -4,7 +4,7 @@ package 数组中的逆序对;
  * @Classname Solution
  * @Description TODO
  * @Date 2019/12/22 10:05
- * @Author SunCheng
+ * @Author Cheng
  */
 public class Solution {
     public static void main(String[] args) {
@@ -55,6 +55,4 @@ public class Solution {
             array[left + i] = temp[i];
         }
     }
-
-
 }

@@ -4,7 +4,7 @@ package 整数中1出现的次数;
  * @Classname Solution
  * @Description TODO
  * @Date 2019/12/22 8:34
- * @Author SunCheng
+ * @Author Cheng
  */
 public class Solution {
     public static void main(String[] args) {

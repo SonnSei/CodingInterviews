@@ -4,7 +4,7 @@ package 数字在排序数组中出现的次数;
  * @Classname Solution
  * @Description TODO
  * @Date 2019/12/22 12:28
- * @Author SunCheng
+ * @Author Cheng
  */
 public class Solution {
     public int GetNumberOfK(int [] array , int k) {
@@ -17,7 +17,6 @@ public class Solution {
 //        return array[l]==k?r-l:0;
     }
 
-    //模型保证的是不会出现死循环
     public static int leftSearch(int[] nums, int target) {
         int l = 0,r = nums.length;
         while (l < r) {
@@ -31,5 +30,4 @@ public class Solution {
         }
         return l;
     }
-
 }

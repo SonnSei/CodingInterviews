@@ -8,7 +8,7 @@ import java.util.ArrayList;
  * @Classname Solution
  * @Description TODO
  * @Date 2019/12/18 4:10
- * @Created by SunCheng
+ * @Created by Cheng
  */
 public class Solution {
     public ArrayList<ArrayList<Integer>> FindPath(TreeNode root, int target) {
@@ -29,7 +29,6 @@ public class Solution {
             backTracking(ret,list,node.left,sum,target);
         if(node.right != null)
             backTracking(ret,list,node.right,sum,target);
-        sum-=node.val;
         list.remove(list.size() - 1);
         return;
     }

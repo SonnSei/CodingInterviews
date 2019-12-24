@@ -4,7 +4,7 @@ package 丑数;
  * @Classname Solution
  * @Description TODO
  * @Date 2019/12/22 9:49
- * @Author SunCheng
+ * @Author Cheng
  */
 public class Solution {
     public int nthUglyNumber(int n) {
