@@ -6,7 +6,7 @@ import java.util.Arrays;
  * @Classname Solution
  * @Description 变态跳台阶
  * @Date 2019/12/17 16:58
- * @Created by SunCheng
+ * @Created by SonnSei
  */
 public class Solution {
     /**

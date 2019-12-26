@@ -6,7 +6,7 @@ import utils.TreeNode;
  * @Classname Solution
  * @Description TODO
  * @Date 2019/12/22 12:39
- * @Author SunCheng
+ * @Author SoonSei
  */
 public class Solution {
     public boolean IsBalanced_Solution(TreeNode root) {

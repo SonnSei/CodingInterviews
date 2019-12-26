@@ -4,7 +4,7 @@ package 左旋转字符串;
  * @Classname Solution
  * @Description TODO
  * @Date 2019/12/22 13:23
- * @Author SunCheng
+ * @Author SonnSei
  */
 public class Solution {
     public static void main(String[] args) {

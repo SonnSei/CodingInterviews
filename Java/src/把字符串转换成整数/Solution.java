@@ -4,13 +4,14 @@ package 把字符串转换成整数;
  * @Classname Solution
  * @Description TODO
  * @Date 2019/12/23 10:04
- * @Author Cheng
+ * @Author SonnSei
  */
 public class Solution {
     public static void main(String[] args) {
         int ret = StrToInt("  133");
         System.out.println(ret);
     }
+
     public static int StrToInt(String str) {
         if (str == null || (str = str.trim()).length() == 0) return 0;
         int ret = 0;
@@ -25,10 +26,10 @@ public class Solution {
             char ch = str.charAt(i);
             if (ret > Integer.MAX_VALUE / 10 || (ret == Integer.MAX_VALUE / 10 && ch - '7' > 0)) return 0;
             if (ret < Integer.MIN_VALUE / 10 || (ret == Integer.MIN_VALUE / 10 && ch - '8' > 0)) return 0;
-            int value = ch-'0';
-            if (value<0 || value>9) return 0;
-            ret = ret*10;
-            ret = minus?ret-value:ret+value;
+            int value = ch - '0';
+            if (value < 0 || value > 9) return 0;
+            ret = ret * 10;
+            ret = minus ? ret - value : ret + value;
         }
         return ret;
     }

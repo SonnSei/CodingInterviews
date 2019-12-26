@@ -4,7 +4,7 @@ package 跳台阶;
  * @Classname Solution
  * @Description 跳台阶
  * @Date 2019/12/17 16:55
- * @Created by SunCheng
+ * @Created by SonnSei
  */
 public class Solution {
     public int JumpFloor(int target) {

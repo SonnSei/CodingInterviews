@@ -4,7 +4,7 @@ package 不用加减乘除做加法;
  * @Classname Solution
  * @Description TODO
  * @Date 2019/12/23 9:48
- * @Author Cheng
+ * @Author SonnSei
  */
 public class Solution {
     public int Add(int num1,int num2) {

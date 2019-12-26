@@ -8,7 +8,7 @@ import java.util.Set;
  * @Classname Solution
  * @Description TODO
  * @Date 2019/12/22 12:41
- * @Author SunCheng
+ * @Author SonnSei
  */
 public class Solution {
     public static void main(String[] args) {
@@ -49,7 +49,7 @@ public class Solution {
         for (int val : array) {
             bitRetStr^=val;
         }
-        int index = getDeffIndex(bitRetStr);
+        int index = getDiffIndex(bitRetStr);
         int bitLeftRet = 0,bitRightRet = 0;
         for (int val : array) {
             if (zeroInIndex(val, index)) {
@@ -63,12 +63,11 @@ public class Solution {
     }
 
     private boolean zeroInIndex(int val, int index) {
-
         return ((val>>index) & 1)==0;
     }
 
     //
-    private int getDeffIndex(int bitRetStr) {
+    private int getDiffIndex(int bitRetStr) {
         int ret = 0;
         while ((bitRetStr & 1) == 0) {
             ret++;

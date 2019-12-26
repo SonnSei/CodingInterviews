@@ -4,7 +4,7 @@ package 求1到n的和;
  * @Classname Solution
  * @Description TODO
  * @Date 2019/12/23 9:46
- * @Author Cheng
+ * @Author SonnSei
  */
 public class Solution {
     public static void main(String[] args) {
@@ -12,6 +12,8 @@ public class Solution {
         System.out.println(ret);
     }
     public static int Sum_Solution(int n) {
-        return n == 1 ? n : n + Sum_Solution(n - 1);
+        int sum = n;
+        boolean b = (n>0) && (sum += Sum_Solution(n-1))>0;
+        return sum;
     }
 }
