@@ -9,7 +9,7 @@ import java.util.Set;
  * @Classname Solution
  * @Description TODO
  * @Date 2019/12/23 11:27
- * @Author Cheng
+ * @Author SonnSei
  */
 public class Solution {
     public ListNode EntryNodeOfLoop(ListNode pHead)
@@ -30,19 +30,5 @@ public class Solution {
             slow = slow.next;
         }
         return fast;
-    }
-
-    public ListNode EntryNodeOfLoop2(ListNode pHead)
-    {
-        Set<ListNode> set = new HashSet<>();
-        ListNode cur = pHead;
-        while (cur != null) {
-            if (set.contains(cur)) {
-                return cur;
-            }
-            set.add(cur);
-            cur = cur.next;
-        }
-        return null;
     }
 }

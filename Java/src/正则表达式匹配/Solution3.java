@@ -4,7 +4,7 @@ package 正则表达式匹配;
  * @Classname Solution3
  * @Description 自底向上
  * @Date 2019/12/24 14:56
- * @Author Cheng
+ * @Author SonnSei
  */
 public class Solution3 {
     public static boolean isMatch(String text, String pattern) {

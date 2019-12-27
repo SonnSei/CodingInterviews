@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * @Classname Solution2
  * @Description 数组+list
  * @Date 2019/12/23 11:24
- * @Author Cheng
+ * @Author SonnSei
  */
 public class Solution2 {
     int[] record = new int[128];

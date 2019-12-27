@@ -4,7 +4,7 @@ package 正则表达式匹配;
  * @Classname Solution
  * @Description 正则表达式匹配
  * @Date 2019/12/24 10:45
- * @Author Cheng
+ * @Author SonnSei
  */
 public class Solution {
 
@@ -37,6 +37,4 @@ public class Solution {
             return firstMatch && match(str, sIndex + 1, pattern, pIndex + 1);
         }
     }
-
-
 }

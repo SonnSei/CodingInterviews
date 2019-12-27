@@ -8,7 +8,7 @@ import java.util.Set;
  * @Classname Solution
  * @Description 哈希链表
  * @Date 2019/12/23 11:14
- * @Author Cheng
+ * @Author SonnSei
  */
 public class Solution {
     //Insert one char from stringstream
@@ -31,5 +31,4 @@ public class Solution {
         }
         return '#';
     }
-
 }

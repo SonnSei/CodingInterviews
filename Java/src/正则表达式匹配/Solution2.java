@@ -8,7 +8,7 @@ import java.util.Arrays;
  * @Classname Solution2
  * @Description 自顶向下
  * @Date 2019/12/24 14:30
- * @Author Cheng
+ * @Author SonnSei
  */
 public class Solution2 {
     public static void main(String[] args) {
@@ -19,7 +19,6 @@ public class Solution2 {
 
     /**
      * 备忘录
-     *
      * @param str
      * @param pattern
      * @return
