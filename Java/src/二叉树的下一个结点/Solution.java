@@ -7,7 +7,7 @@ import utils.TreeLinkNode;
  * @Classname Solution
  * @Description TODO
  * @Date 2019/12/23 14:01
- * @Author Cheng
+ * @Author SonnSei
  */
 public class Solution {
     public TreeLinkNode GetNext(TreeLinkNode pNode)
