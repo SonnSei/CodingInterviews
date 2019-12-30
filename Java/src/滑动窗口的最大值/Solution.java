@@ -8,12 +8,12 @@ import java.util.PriorityQueue;
  * @Classname Solution
  * @Description TODO
  * @Date 2019/12/23 16:32
- * @Author Cheng
+ * @Author SonnSei
  */
 public class Solution {
     public ArrayList<Integer> maxInWindows(int[] num, int size) {
 
-        ArrayList<Integer> ret = new ArrayList<Integer>();
+        ArrayList<Integer> ret = new ArrayList<>();
         if (num == null || size <= 0 || size > num.length) {
             return ret;
         }
