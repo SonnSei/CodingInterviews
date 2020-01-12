@@ -1,10 +1,6 @@
-import utils.TreeNode;
+import sun.misc.Unsafe;
 
 import java.lang.reflect.Field;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
 
 /**
  * @Classname Main
@@ -17,11 +13,9 @@ public class Main {
 
     }
 
-    void test(){
 
-    }
 
-    synchronized  void test2(){
 
-    }
+
+
 }
