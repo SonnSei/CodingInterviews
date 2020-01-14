@@ -41,7 +41,7 @@ public class Solution {
                 ret.add(matrix[row][colRight]);
             }
             if (rowDown != rowUp) {
-                for (int col = colRight-1; col > colLeft; col--) {
+                for (int col = colRight-1; col >= colLeft; col--) {
                     ret.add(matrix[rowDown][col]);
                 }
             }
