@@ -42,7 +42,6 @@ public class Solution {
                 count = 1;
                 master = array[i];
             }
-
         }
         count = 0;
         for (int item : array) {

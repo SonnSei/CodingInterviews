@@ -17,7 +17,6 @@ public class Solution {
 
     // 判断两个根节点延申出的树是否为包含与包含关系
     private boolean subTreeFromRoot(TreeNode root1, TreeNode root2) {
-        if(root1==null && root2 == null)return true;
         if(root2 == null)return true;
         if(root1 ==null ||root1.val != root2.val )return false;
         return subTreeFromRoot(root1.left, root2.left) && subTreeFromRoot(root1.right, root2.right);
